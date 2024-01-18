@@ -1,5 +1,5 @@
-# Google Keep Front-End Clone
-A dynamic and user-friendly note-taking application built with React. It allows users to easily create, view, and manage personal notes. This project showcases a full-stack development approach using React and Material-UI.
+# Google Keep Clone
+A dynamic and user-friendly note-taking application built with React. It allows users to easily create, view, and manage personal notes. This project showcases a front-end development approach using React and Material-UI.
 ## Features
 - **Create Notes**: Add new notes with a title and content.
 - **View Notes**: Display all notes in a user-friendly interface.
