@@ -7,8 +7,6 @@
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
-    "@material-ui/core": "^4.12.4",
-    "@material-ui/icons": "^4.11.3",
     "@mui/icons-material": "^5.15.4",
     "@mui/material": "^5.15.4",
     "react": "18.2.0",
@@ -16,14 +14,18 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "typescript": "5.3.3"
+    "gh-pages": "^6.1.1",
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://github.com/BalickiGabe/Google-Keep-Clone.git",
   "browserslist": [
     ">0.2%",
     "not dead",
